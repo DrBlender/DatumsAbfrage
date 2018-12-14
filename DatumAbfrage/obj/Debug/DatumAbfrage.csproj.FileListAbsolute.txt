@@ -1,0 +1,7 @@
+C:\Users\GertzA\source\repos\DatumAbfrage\DatumAbfrage\bin\Debug\DatumAbfrage.exe.config
+C:\Users\GertzA\source\repos\DatumAbfrage\DatumAbfrage\bin\Debug\DatumAbfrage.exe
+C:\Users\GertzA\source\repos\DatumAbfrage\DatumAbfrage\bin\Debug\DatumAbfrage.pdb
+C:\Users\GertzA\source\repos\DatumAbfrage\DatumAbfrage\obj\Debug\DatumAbfrage.csprojAssemblyReference.cache
+C:\Users\GertzA\source\repos\DatumAbfrage\DatumAbfrage\obj\Debug\DatumAbfrage.csproj.CoreCompileInputs.cache
+C:\Users\GertzA\source\repos\DatumAbfrage\DatumAbfrage\obj\Debug\DatumAbfrage.exe
+C:\Users\GertzA\source\repos\DatumAbfrage\DatumAbfrage\obj\Debug\DatumAbfrage.pdb

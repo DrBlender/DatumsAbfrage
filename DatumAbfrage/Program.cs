@@ -11,7 +11,7 @@ namespace DatumAbfrage
         static void Main(string[] args)
         {
             int tag, monat, jahr;
-            double zwischen1, zwischen2, zwischen3;
+            double zwischen1, zwischen2, zwischen3, pruf;
             string eingabe;
 
             Console.WriteLine("Bitte geben Sie den Tag des zu überprüfenden Datums an!");
@@ -35,7 +35,8 @@ namespace DatumAbfrage
                         zwischen1 = jahr % 4; //Berechnung des Rests für das Schaltjahr
                         zwischen2 = jahr % 100;
                         zwischen3 = jahr % 400;
-                        if ((monat == 2) && (tag == 29) && (((zwischen1 == 0) && (zwischen2 > 0)) || ((zwischen1 == 0) && (zwischen2 == 0) && (zwischen3 == 0))))
+                        pruf = zwischen1 + zwischen2 + zwischen3;
+                        if ((monat == 2) && (tag == 29) && (((zwischen1 == 0) && (zwischen2 > 0)) || (pruf == 0)))
                         {
                             Console.WriteLine(tag + "." + monat + "." + jahr + " ist ein GÜLTIGES Schaltjahr!");
                             Console.ReadKey();
